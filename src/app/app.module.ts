@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CreateThinkingComponent } from './components/thinkings/create-thinking/create-thinking.component';
 import { GetThinkingsComponent } from './components/thinkings/get-thinkings/get-thinkings.component';
+import { ThinkingComponent } from './components/thinkings/thinking/thinking.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,9 @@ import { GetThinkingsComponent } from './components/thinkings/get-thinkings/get-
     HeaderComponent,
     FooterComponent,
     CreateThinkingComponent,
-    GetThinkingsComponent
+    GetThinkingsComponent,
+    ThinkingComponent,
+
   ],
   imports: [
     BrowserModule,
