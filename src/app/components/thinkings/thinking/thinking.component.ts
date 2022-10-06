@@ -17,4 +17,12 @@ export class ThinkingComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  larguraPensamento ():String {
+    if (this.pensamento.conteudo.length >= 256){
+      return "pensamento-g"
+    }
+    return "pensamento-p"
+
+  }
+
 }

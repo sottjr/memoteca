@@ -19,8 +19,8 @@ export class GetThinkingsComponent implements OnInit {
       modelo: 'modelo2'
     },
     {
-      conteudo: 'Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. ',
-      autoria: '',
+      conteudo: 'Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius.',
+      autoria: 'Mussum Ipsum',
       modelo: 'modelo1'
     },
   ];
