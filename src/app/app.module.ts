@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CreateThinkingComponent } from './components/thinkings/create-thinking/create-thinking.component';
+import { GetThinkingsComponent } from './components/thinkings/get-thinkings/get-thinkings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CreateThinkingComponent
+    CreateThinkingComponent,
+    GetThinkingsComponent
   ],
   imports: [
     BrowserModule,
